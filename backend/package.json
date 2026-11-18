@@ -1,0 +1,24 @@
+{
+  "name": "biblioteca-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API do Sistema Web de Gerenciamento de Biblioteca",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "setup": "node src/config/setup.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "bcryptjs": "3.0.3",
+    "cors": "2.8.6",
+    "dotenv": "17.4.2",
+    "express": "5.3.0",
+    "jsonwebtoken": "9.0.3",
+    "pg": "8.23.1",
+    "sequelize": "6.37.8",
+    "swagger-ui-express": "5.0.1"
+  }
+}
